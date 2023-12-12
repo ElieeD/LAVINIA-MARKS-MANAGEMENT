@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #900C3F;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav {
+    background-color: #900C3F;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 160px;
+    margin-right: 30px; /* Increased distance between navigation items to 30px */
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff; /* Change font color to white on hover */
+    transform: translateY(-3px);
+}
+
+nav i {
+    margin-right: 5px; /* Adjust the margin between the icon and text */
+}
+
+.main-content {
+    text-align: center;
+    margin: 50px;
+}
+
+footer {
+    background-color: #900C3F;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

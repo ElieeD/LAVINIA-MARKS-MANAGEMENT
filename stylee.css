@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative; /* Changed from fixed to relative */
+}
+
+header {
+    background-color: #900C3F;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000; 
+}
+
+nav {
+    background-color: #900C3F;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px; /* Adjusted distance between navigation items to 20px */
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+nav i {
+    margin-right: 5px;
+}
+
+.main-content {
+    text-align: center;
+    margin: 100px auto; /* Centered the main content with some top margin */
+}
+
+footer {
+    background-color: #900C3F;
+    color: #000;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.elie {
+    height: 80px;
+    width: 80%;
+    background-color: #900C3F;
+    margin-left: 160px;
+    margin-top: 15px;
+    /* position: fixed; */
+    z-index: 999; /* Ensures the navigation is above other content */
+}
+
+.elie li {
+    display: inline;
+    margin-right: 20px; /* Adjusted distance between navigation items to 20px */
+}
+
+.elie a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.elie a:hover {
+    color: #fff;
+}
+.elie ul,li{
+    margin-left: 60px;
+}
+.elie ul,li,a{
+    padding: 10px;
+    margin-top: 3px;
+    
+}
+label{
+    font-weight: bold;
+}
